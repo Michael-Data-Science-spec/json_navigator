@@ -132,7 +132,7 @@ def choice():
     print('if u want to navigate with given file, enter 0\n\
 else: enter your bearer token')
     user_input = input()
-    if user_input == 0:
+    if user_input == '0':
         with open('friends_list_AdamMGrant.json', 'r') as f:
             json_obj = json.load(f)
 
